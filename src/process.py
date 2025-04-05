@@ -1,4 +1,4 @@
-from src.calculators import calculate_mvp, calculate_totals
+from calculators import calculate_mvp, calculate_totals
 
 def main(round_data, player_totals):
     lista = []

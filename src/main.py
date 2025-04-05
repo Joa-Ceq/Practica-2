@@ -1,4 +1,4 @@
-from process import main    
+from process import main, sort_players
 
 rounds = [
 {
@@ -46,5 +46,5 @@ player_totals = {}
 
 for round_data in rounds:
     player_totals = main(round_data, player_totals)
-for item in player_totals.items():
-    print(item)
+
+sort_players(player_totals)
